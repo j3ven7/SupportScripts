@@ -2,14 +2,14 @@
 Scripts for support.
 
 # Bulk Gathering of locations
-If you have a bunch of locations and need to gather their place IDs you can run the getPlaceIds script.
+If you have a bunch of locations and need to gather their place IDs you can run the `getPlaceIds.py` script.
 
 ## Make sure you have python3 installed. 
 
 Type in `python3 --version`. If something like `Python 3.X.X` shows up you're good! 
 If not check out this link for installation instructions. https://realpython.com/installing-python/
 
-## Install the virtaul environment
+## Install the virtual environment
 
 This essentially ensures that all the code in here doesn't fuck with your computer. 
 Make sure that you are in a terminal and are in the same directory as this repository.
@@ -22,13 +22,18 @@ Make sure that you are in a terminal and are in the same directory as this repos
 
 Let's say you have a csv file with some columns like this 
 
-Name	Address Line 1	Address Line 2	City	State	Zip
-Target 123 Main Street                WhoVille NJ 01234
+`Name`	`Address Line 1`	`Address Line 2`	`City`	`State`	`Zip`
+
+<br />
+
+`Target` `123 Main Street`                `WhoVille` `NJ` `01234`
 
 The `getPlaceIds.py` script can use that information to find the correct placeId 
 and subsequently write that information to a new file. 
 
-You need to have Google API Keys to make this work. 
+### Google API Setup
+
+You need to have Google API Keys to execute the `getPlaceIds.py` script. 
 
 To do so, navigate to https://cloud.google.com/resource-manager/docs/creating-managing-projects.
 and follow the instructions.
