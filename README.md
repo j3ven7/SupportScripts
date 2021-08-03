@@ -61,11 +61,11 @@ If your response is the following, then you're ready to rock!
 ---------------------------------------------------------
 To run `getPlaceIds.py` simply run the following from a terminal window:
 
-`python getPlaceIds <API-Key> <File-To-Read-From> <File-To-Write-To>`
+`python getPlaceIds.py <API-Key> <File-To-Read-From> <File-To-Write-To>`
 
 For example:
 
-`python getPlaceIds AIzaSyD6Cj7hpNX0h-Y5Q1234-xD1234124E master_list_google_with_place_ids.csv output.csv`
+`python getPlaceIds.py AIzaSyD6Cj7hpNX0h-Y5Q1234-xD1234124E master_list_google_with_place_ids.csv output.csv`
 
 In the above example:
 
