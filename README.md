@@ -14,6 +14,10 @@ If not check out this link for installation instructions. https://realpython.com
 This essentially ensures that all the code in here doesn't fuck with your computer. 
 Make sure that you are in a terminal and are in the same directory as this repository.
 
+**Note: You only need to run this the first time you run the script.**
+**If you have run the script in the past, DO NOT RUN STEPS 1 or 3.** 
+**Simply run step 2 to activate your virtual environment. **
+
 1. Run `python -m venv env`. This creates your virtual environment.
 2. Run `source env/bin/activate` from a Mac or `env\Scripts\activate.bat` in Windows. This activates your virtual environment.
 3. Run `pip install -r requirements.txt`. This installs all the packages you need. 
