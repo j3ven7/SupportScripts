@@ -31,6 +31,9 @@ Let's say you have a csv file with some columns like this
 The `getPlaceIds.py` script can use that information to find the correct placeId 
 and subsequently write that information to a new file. 
 
+Please make sure that any irrelevant columns are removed from the file that you are using.
+The script just puts all the columns together, so extraneous information will break the script.
+
 ### Google API Setup
 
 You need to have Google API Keys to execute the `getPlaceIds.py` script. 
@@ -62,6 +65,9 @@ If your response is the following, then you're ready to rock!
 To run `getPlaceIds.py` simply run the following from a terminal window:
 
 `python getPlaceIds.py <API-Key> <File-To-Read-From> <File-To-Write-To>`
+
+<File-To-Read-From> The file with the relevant location data. This should be a `.csv` file.
+<File-To-Write-To> The file you want to write the placeIDs too. This should be a `.csv` file.
 
 For example:
 
