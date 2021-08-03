@@ -91,7 +91,7 @@ def getPlaceIds(api_key: str, filename: str, write_filename: str):
 	"""
 	rows = readInFile(filename)
 	print(f"There are {len(rows)} total rows")
-	placeIds = [getPlaceId(api_key, " ".join(row)) for row in rows[:1]]
+	placeIds = [getPlaceId(api_key, " ".join(row)) for row in rows]
 
 	with open(write_filename, "w") as f:
 		writer = csv.writer(f, delimiter=',')
