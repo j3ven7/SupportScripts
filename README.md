@@ -6,7 +6,7 @@ If you have a bunch of locations and need to gather their place IDs you can run 
 
 ## Make sure you have python3 installed. 
 
-Type in `python3 --version`. If something like `Python 3.X.X` shows up you're good! 
+Type in `python --version`. If something like `Python 3.X.X` shows up you're good! 
 If not check out this link for installation instructions. https://realpython.com/installing-python/
 
 ## Install the virtual environment
@@ -14,8 +14,8 @@ If not check out this link for installation instructions. https://realpython.com
 This essentially ensures that all the code in here doesn't fuck with your computer. 
 Make sure that you are in a terminal and are in the same directory as this repository.
 
-1. Run `python3 -m venv env`. This creates your virtual environment.
-2. Run `source env/bin/activate`. This activates your virtual environment.
+1. Run `python -m venv env`. This creates your virtual environment.
+2. Run `source env/bin/activate` from a Mac or `env\Scripts\activate.bat` in Windows. This activates your virtual environment.
 3. Run `pip install -r requirements.txt`. This installs all the packages you need. 
 
 ## Bulk gathering of locations
